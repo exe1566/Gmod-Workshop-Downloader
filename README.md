@@ -1,5 +1,6 @@
 # Gmod-Steam-Workshop-Downloader
- Steam Workshop Downloader For Gmod
+
+fast and reliable workshop downloader for gmod. 
 
 ![image description](github_documentation.png)
 
