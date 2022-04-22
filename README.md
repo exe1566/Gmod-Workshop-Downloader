@@ -1,6 +1,6 @@
 # Gmod-Steam-Workshop-Downloader
 
-fast and reliable workshop downloader for gmod. 
+fast and reliable workshop downloader for gmod. Written in python 
 
 ![image description](github_documentation.png)
 
