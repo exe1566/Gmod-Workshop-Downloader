@@ -122,7 +122,7 @@ class App(customtkinter.CTk):
         self.text_1 = customtkinter.CTkEntry(master=self.frame_right, width=400, height=50, placeholder_text="Steam Workshop ID", fg_color=("gray75", "gray30"), text_font=("Roboto Medium", -16))
         self.text_1.grid(row=5, column=0, sticky="nswe", padx=100, pady=10)
 
-        self.downloadbut = customtkinter.CTkButton(master=self.frame_right, text="Download", fg_color=("gray75", "gray30"),command=self.tekli_Indirme)
+        self.downloadbut = customtkinter.CTkButton(master=self.frame_right, text="Download", fg_color=("gray75", "gray30"),command=self.single_download)
         self.downloadbut.grid(row=6, column=0, pady=10, padx=20)
 
         # add a text label
@@ -132,7 +132,7 @@ class App(customtkinter.CTk):
     def button_event(self):
         print("Button pressed")
     
-    def tekli_Indirme(self):
+    def single_download(self):
         if self.downloading:
             return 
 
